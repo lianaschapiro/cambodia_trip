@@ -1,5 +1,22 @@
-* {
-	text-align: center;
+body{
+	background-image: url("monks.jpg");
+	width: 90%;
+	margin-left: 20px;
+	font-family: 'Lucida Bright', Georgia, serif;
+}
+
+a {
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: white;
+}
+
+p {
+	font-size: 20px;
 }
 
 #lightbox {
@@ -10,10 +27,11 @@
 	left: 0;
 	background-color: rgba(0, 0, 0, .95);
 	display: none;
+	text-align: center;
 }
 
 #lightbox h2 {
-	color: white;
+	color: #e8e8e8;
 	margin-top: 7%;
 	margin-bottom: 3%;
 }
@@ -22,4 +40,6 @@ img {
 	display: block;
 	height: 400px;
 	margin: 0 auto;
+	border: solid 3px #e8e8e8;
+	border-radius: 10px;
 }
